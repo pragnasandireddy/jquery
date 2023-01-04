@@ -1,0 +1,49 @@
+<html>
+<head>	
+	<title>Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <script  src="./jq.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>REGISTER</h1>
+		<form id="registration_form">
+			<div>
+				<input type="text" id="form_fname" name="" required="">
+				<span class="error_form" id="fname_error_message"></span>
+				<label>
+					First Name
+				</label>	
+			</div>
+			<div>
+				<input type="text" id="form_sname" name="" required="">
+				<span class="error_form" id="sname_error_message"></span>
+				<label>
+					Second Name
+				</label>	
+			</div>
+			<div>
+				<input type="email" id="form_email" name="" required="">
+				<span class="error_form" id="email_error_message"></span>
+				<label>Email id</label>	
+			</div>
+			<div>
+				<input type="password" id="form_password" name="" required="">
+				<span class="error_form" id="password_error_message"></span>
+				<label>Password</label>	
+			</div>
+			<div>
+				<input type="password" id="form_retype_password" name="" required="">
+				<span class="error_form" id="retype_password_error_message"></span>
+				<label>Re-Enter Password</label>	
+			</div>
+			<input type="submit" value="Register" name="">
+			<br>
+			<button>clear</button>
+
+		</form>
+	</div>
+	
+</body>
+</html>
