@@ -1,1 +1,4 @@
 log.log
+if /log.log means only ignore that file which in gitignore
+if *.log then ignore all the files in the files
+if log/ means ignore the whole directory/folder
