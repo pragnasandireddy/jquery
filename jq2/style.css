@@ -1,0 +1,20 @@
+#div1{
+    margin: auto;
+    background-color: aqua;
+    font-style: normal;
+    text-align: center;
+}
+#div2{
+    margin: auto;
+    background-color: blueviolet;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+#div3{
+    margin: auto;
+    background-color: greenyellow;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
