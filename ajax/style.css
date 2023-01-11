@@ -1,0 +1,13 @@
+.title{
+ text-align: center;
+}
+ 
+input[type="submit"]{
+    border-radius: 5px !important;
+}
+
+.card{
+    border-radius: unset !important;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px 3px rgb(67, 69, 71);
+}
