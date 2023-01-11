@@ -121,5 +121,17 @@ $(function() {
 
 
          });
+         $("#submitbtn").click(function(){
+            var fname=$("#form_fname").val();
+            var sname=$("#form_sname").val();
+            var email=$("#form_email").val();
+            var password=$("#form_password").val();
+            var password2=$("#form_retype_password").val();
+
+            $.post("",{},function(){
+
+            })
+         })
+        
       });
    

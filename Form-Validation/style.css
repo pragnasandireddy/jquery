@@ -11,7 +11,7 @@ body
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	width: 700px;
+	width: 600px;
 	background: #fff;
 	padding: 45px;
 	box-sizing: border-box;
@@ -42,23 +42,31 @@ body
 	border-radius: 25px;
 	font-size: 20px;
 	height: 40px;
+	width: 120px;
 	cursor : pointer;
 	background: rgb(66,133,244);
 	color: #fff;
 	margin-bottom: 0;
 }
-.container button{
+.container input[type="reset"]
+{
+	
 	border-radius: 25px;
 	font-size: 20px;
 	height: 40px;
+	width: 120px;
 	cursor : pointer;
 	background: rgb(66,133,244);
 	color: #fff;
-	margin-top: 5px;
-	border: 0px;
-	width: 340px;
+	margin-bottom: 0;
 }
+
 .container input[type="submit"]:hover
+{
+	background: #34F458;
+	color: #fff;
+}
+.container input[type="reset"]:hover
 {
 	background: #34F458;
 	color: #fff;
@@ -67,7 +75,7 @@ body
 {
 	position: relative;
 }
-.container form div label
+/*.container form div label
 {
 	position: absolute;
 	top: 3px;
@@ -88,7 +96,7 @@ body
 .container input:valid
 {
 	border-bottom: 2px solid rgb(66,133,244);
-}
+}*/
 .error_form
 {
 	top: 12px;
@@ -96,3 +104,4 @@ body
     font-size: 15px;
     font-family: Helvetica;
 }
+

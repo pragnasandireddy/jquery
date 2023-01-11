@@ -3,6 +3,10 @@
     background-color: aqua;
     font-style: normal;
     text-align: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 3px black dotted;
 }
 #div2{
     margin: auto;
@@ -10,6 +14,9 @@
     font-style: normal;
     text-align: center;
     margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
 }
 #div3{
     margin: auto;
@@ -17,4 +24,6 @@
     font-style: normal;
     text-align: center;
     margin-top: 10px;
+    width: 300px;
+    height: 300px;
 }
